@@ -3,6 +3,38 @@
 }
 
 body {
+    margin: 0;
     font-size: 1rem;
     font-family: 'Barlow Semi Condensed', sans-serif;
+    background-color: hsl(0, 0%, 81%);
+}
+
+/* LAYOUT */
+
+.container {
+    width: 90%;
+    margin: 4em auto 0;
+    display: grid;
+}
+
+.testimonial {
+    border-radius: 10px;
+    padding: 2em;
+}
+
+.daniel {
+    background-color: hsl(263, 55%, 52%);
+}
+
+.jonathan {
+    background-color: hsl(217, 19%, 35%);
+}
+
+.patrick {
+    background-color: hsl(219, 29%, 14%);
+}
+
+.jeanette,
+.kira {
+    background-color: white;
 }
