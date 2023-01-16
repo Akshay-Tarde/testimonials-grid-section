@@ -5,21 +5,57 @@
 body {
     margin: 0;
     font-size: 1rem;
+    font-weight: 500;
     font-family: 'Barlow Semi Condensed', sans-serif;
     background-color: hsl(0, 0%, 81%);
 }
+
+h2 {
+    font-weight: 600;
+}
+
+h3 {
+    margin: 0;
+}
+
+.designation {
+    opacity: .5;
+    margin: 0;
+}
+
+.testimonial-body {
+    opacity: .7;
+}
+
+.daniel,
+.jonathan,
+.patrick {
+    color: hsl(0, 0%, 100%);
+}
+
+.jeanette,
+.kira {
+    color: hsl(217, 19%, 35%);
+}
+
+
+
+/* TYPOGRAPHY */
+
+
 
 /* LAYOUT */
 
 .container {
     width: 90%;
-    margin: 4em auto 0;
+    margin: 2em auto 0;
     display: grid;
 }
 
 .testimonial {
     border-radius: 10px;
     padding: 2em;
+    margin: 1em 0;
 }
 
 .daniel {
@@ -36,5 +72,5 @@ body {
 
 .jeanette,
 .kira {
-    background-color: white;
+    background-color: hsl(0, 0%, 100%);
 }
