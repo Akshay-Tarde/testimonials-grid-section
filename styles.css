@@ -10,6 +10,24 @@ body {
     background-color: hsl(0, 0%, 81%);
 }
 
+
+img {
+    border-radius: 100px;
+    height: 40px;
+    object-fit: cover;
+}
+
+/* .image-daniel {
+    border: 2.5px solid hsl(217, 19%, 35%);
+} */
+
+.image-patrick {
+    border: 2.5px solid hsl(263, 55%, 52%);
+}
+
+/* TYPOGRAPHY */
+
+
 h2 {
     font-weight: 600;
 }
@@ -38,9 +56,6 @@ h3 {
     color: hsl(217, 19%, 35%);
 }
 
-
-
-/* TYPOGRAPHY */
 
 
 
