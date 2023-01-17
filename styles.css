@@ -147,6 +147,19 @@ img {
     margin-right: auto;
 }
 
+/* FOOTER */
+
+.attribution {
+    width: 90%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+a:focus,
+a:hover {
+    color: black;
+}
+
 /* MEDIA QUERIES */
 
 @media (min-width: 900px) {
