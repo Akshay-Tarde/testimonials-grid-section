@@ -121,3 +121,68 @@ h3 {
     top: 0;
     right: 1.5em;
 }
+
+/* Grid for testimonial */
+.testimonial {
+    display: grid;
+}
+
+.header {
+    display: grid;
+    grid-template-columns: 50px 2fr;
+    grid-template-rows: 1fr 1fr;
+    grid-column-gap: .01em;
+}
+
+img {
+    grid-column: 1 / span 1;
+    grid-row: span 2;
+}
+
+.full-name,
+.designation {
+    grid-column: 2;
+    align-self: start;
+    justify-self: start;
+    margin-right: auto;
+}
+
+/* MEDIA QUERIES */
+
+@media (min-width: 900px) {
+    .container {
+        grid-template: auto auto / repeat(4, 1fr);
+        grid-template-areas:
+            "daniel   daniel  jonathan kira"
+            "jeanette patrick patrick  kira";
+
+        grid-gap: 0 2em;
+    }
+
+    .daniel {
+        grid-area: daniel;
+    }
+
+    .jonathan {
+        grid-area: jonathan;
+    }
+
+    .kira {
+        grid-area: kira;
+    }
+
+    .jeanette {
+        grid-area: jeanette;
+    }
+
+    .patrick {
+        grid-area: patrick;
+    }
+
+    p,
+    h2 {
+        margin-bottom: 0;
+    }
+
+
+}
