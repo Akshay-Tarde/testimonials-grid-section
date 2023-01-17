@@ -29,11 +29,21 @@ img {
 
 
 h2 {
-    font-weight: 600;
+    font-weight: 500;
 }
 
 h3 {
     margin: 0;
+}
+
+.full-name,
+.designation,
+.testimonial-body {
+    color: hsl(0, 0%, 81%);
+}
+
+.testimonial-title {
+    color: hsl(0, 0%, 100%);
 }
 
 .designation {
@@ -45,19 +55,30 @@ h3 {
     opacity: .7;
 }
 
-.daniel,
+/* .daniel,
 .jonathan,
 .patrick {
     color: hsl(0, 0%, 100%);
-}
+} */
 
 .jeanette,
 .kira {
     color: hsl(217, 19%, 35%);
 }
 
+.jeanette>.testimonial-title,
+.kira>.testimonial-title {
+    color: hsl(217, 19%, 35%);
+}
 
+.jeanette>.testimonial-body,
+.kira>.testimonial-body {
+    color: hsl(219, 29%, 14%);
+}
 
+.different {
+    color: hsl(219, 29%, 14%);
+}
 
 /* LAYOUT */
 
@@ -88,4 +109,15 @@ h3 {
 .jeanette,
 .kira {
     background-color: hsl(0, 0%, 100%);
+}
+
+/* Background quotation */
+.daniel {
+    position: relative;
+}
+
+.bg-quotation {
+    position: absolute;
+    top: 0;
+    right: 1.5em;
 }
